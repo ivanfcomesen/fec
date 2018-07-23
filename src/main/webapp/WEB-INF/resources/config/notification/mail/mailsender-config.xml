@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<mailsenders>
+	<mail-sender id="default" emisormail="ecalderon@interfazsoftware.net" pass="chifurinfula" port="587" smtpmail="smtp.gmail.com"/>
+</mailsenders>

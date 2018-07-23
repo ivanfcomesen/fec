@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+  "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>bac-sbe-common_rt</short-name>
+	<display-name>JSTL factura electronica</display-name>
+	<description>Libreria factura electronica corporativa</description>
+	<validator>
+		<validator-class>org.apache.taglibs.standard.tlv.JstlFmtTLV</validator-class>
+	</validator>
+	
+	<tag>
+		<name>validateRoll</name>
+		<tag-class>net.ifz.app.web.common.taglib.ValidateRollTag</tag-class>
+		<body-content>JSP</body-content>
+		<description>Valida si el usuario tiene el roll especificado por parametro y en caso de que lo tenga ejecuta el contenido del tag.</description>
+		<attribute>
+			<name>roll</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+			<description>El roll que queremos saber si el usuario tiene.</description>
+		</attribute>
+	</tag>
+	
+</taglib>

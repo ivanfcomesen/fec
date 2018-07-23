@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<address-config>
+
+<!-- 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 -->
+
+<province id="1" name="San José">
+
+<canton id="1" name="San José">
+
+<district id="1" name="El Carmen"/>
+<district id="2" name="La Merced"/>
+<district id="3" name="Hospital"/>
+<district id="4" name="Catedral"/>
+<district id="5" name="Zapote"/>
+<district id="6" name="San Francisco de Dos Ríos"/>
+<district id="7" name="La Uruca"/>
+<district id="8" name="Mata Redonda"/>
+<district id="9" name="Pavas"/>
+<district id="10" name="Hatillo"/>
+<district id="11" name="San Sebastián"/>
+</canton> 
+
+<canton id="2" name="Escazú">
+
+<district id="1" name="Escazú"/>
+<district id="2" name="San Antonio"/>
+<district id="3" name="San Rafael"/>
+</canton> 
+
+<canton id="3" name="Desamparados">
+
+<district id="1" name="Desamparados"/>
+<district id="2" name="San Miguel"/>
+<district id="3" name="San Juan de Dios"/>
+<district id="4" name="San Rafael Arriba"/>
+<district id="5" name="San Antonio"/>
+<district id="6" name="Frailes"/>
+<district id="7" name="Patarrá"/>
+<district id="8" name="San Cristóbal"/>
+<district id="9" name="Rosario"/>
+<district id="10" name="Damas"/>
+<district id="11" name="San Rafael Abajo"/>
+<district id="12" name="Gravilias"/>
+<district id="13" name="Los Guido"/>
+</canton> 
+
+<canton id="4" name="Puriscal">
+
+<district id="1" name="Santiago"/>
+<district id="2" name="Mercedes Sur"/>
+<district id="3" name="Barbacoas"/>
+<district id="4" name="Grifo Alto"/>
+<district id="5" name="San Rafael"/>
+<district id="6" name="Candelarita"/>
+<district id="7" name="Desamparaditos"/>
+<district id="8" name="San Antonio"/>
+<district id="9" name="Chires"/>
+<district id="10" name="La Cangreja"/>
+</canton> 
+
+<canton id="5" name="Tarrazú">
+
+<district id="1" name="San Marcos"/>
+<district id="2" name="San Lorenzo"/>
+<district id="3" name="San Carlos"/>
+</canton> 
+
+<canton id="6" name="Aserrí">
+
+<district id="1" name="Aserrí"/>
+<district id="2" name="Tarbaca"/>
+<district id="3" name="Vuelta de Jorco"/>
+<district id="4" name="San Gabriel"/>
+<district id="5" name="Legua"/>
+<district id="6" name="Monterrey"/>
+<district id="7" name="Salitrillos"/>
+</canton> 
+
+<canton id="7" name="Mora">
+
+<district id="1" name="Ciudad Colón"/>
+<district id="2" name="Guayabo"/>
+<district id="3" name="Tabarcia"/>
+<district id="4" name="Piedras Negras"/>
+<district id="5" name="Picagres"/>
+<district id="6" name="Jaris"/>
+<district id="7" name="Quitirrisí"/>
+</canton> 
+
+<canton id="8" name="Goicoechea">
+
+<district id="1" name="Guadalupe"/>
+<district id="2" name="San Francisco"/>
+<district id="3" name="Calle Blancos"/>
+<district id="4" name="Mata de Plátano"/>
+<district id="5" name="Ipís"/>
+<district id="6" name="Rancho Redondo"/>
+<district id="7" name="Purral"/>
+</canton> 
+
+<canton id="9" name="Santa Ana">
+
+<district id="1" name="Santa Ana"/>
+<district id="2" name="Salitral"/>
+<district id="3" name="Pozos"/>
+<district id="4" name="Uruca"/>
+<district id="5" name="Piedades"/>
+<district id="6" name="Brasil"/>
+</canton> 
+
+<canton id="10" name="Alajuelita">
+
+<district id="1" name="Alajuelita"/>
+<district id="2" name="San Josecito"/>
+<district id="3" name="San Antonio"/>
+<district id="4" name="Concepción"/>
+<district id="5" name="San Felipe"/>
+</canton> 
+
+<canton id="11" name="Vásquez de Coronado">
+
+<district id="1" name="San Isidro"/>
+<district id="2" name="San Rafael"/>
+<district id="3" name="Dulce Nombre de Jesús"/>
+<district id="4" name="Patalillo"/>
+<district id="5" name="Cascajal"/>
+</canton> 
+
+<canton id="12" name="Acosta">
+
+<district id="1" name="San Ignacio"/>
+<district id="2" name="Guaitil"/>
+<district id="3" name="Palmichal"/>
+<district id="4" name="Cangrejal"/>
+<district id="5" name="Sabanillas"/>
+</canton> 
+
+<canton id="13" name="Tibás">
+
+<district id="1" name="San Juan"/>
+<district id="2" name="Cinco Esquinas"/>
+<district id="3" name="Anselmo Llorente"/>
+<district id="4" name="León XIII"/>
+<district id="5" name="Colima"/>
+</canton> 
+
+<canton id="14" name="Moravia">
+
+<district id="1" name="San Vicente"/>
+<district id="2" name="San Jerónimo"/>
+<district id="3" name="Trinidad"/>
+</canton> 
+
+<canton id="15" name="Montes de Oca">
+
+<district id="1" name="San Pedro"/>
+<district id="2" name="Sabanilla"/>
+<district id="3" name="Mercedes"/>
+<district id="4" name="San Rafael"/>
+</canton> 
+
+<canton id="16" name="Turrubares">
+
+<district id="1" name="San Pablo"/>
+<district id="2" name="San Pedro"/>
+<district id="3" name="San Juan de Mata"/>
+<district id="4" name="San Luis"/>
+<district id="5" name="Carara"/>
+</canton> 
+
+<canton id="17" name="Dota">
+
+<district id="1" name="Santa María"/>
+<district id="2" name="Jardín"/>
+<district id="3" name="Copey"/>
+</canton> 
+
+<canton id="18" name="Curridabat">
+
+<district id="1" name="Curridabat"/>
+<district id="2" name="Granadilla"/>
+<district id="3" name="Sánchez"/>
+<district id="4" name="Tirrases"/>
+</canton> 
+
+<canton id="19" name="Pérez Zeledón">
+
+<district id="1" name="San Isidro de El General"/>
+<district id="2" name="El General"/>
+<district id="3" name="Daniel Flores"/>
+<district id="4" name="Rivas"/>
+<district id="5" name="San Pedro"/>
+<district id="6" name="Platanares"/>
+<district id="7" name="Pejibaye"/>
+<district id="8" name="Cajón"/>
+<district id="9" name="Barú"/>
+<district id="10" name="Río Nuevo"/>
+<district id="11" name="Páramo"/>
+<district id="12" name="La Amistad"/>
+</canton> 
+
+<canton id="20" name="León Cortés Castro">
+
+<district id="1" name="San Pablo"/>
+<district id="2" name="San Andrés"/>
+<district id="3" name="Llano Bonito"/>
+<district id="4" name="San Isidro"/>
+<district id="5" name="Santa Cruz"/>
+<district id="6" name="San Antonio"/>
+</canton> 
+
+</province>
+
+<!-- 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222 -->
+
+<province id="2" name="Alajuela">
+
+<canton id="1" name="Alajuela">
+
+<district id="1" name="Alajuela"/>
+<district id="2" name="San José"/>
+<district id="3" name="Carrizal"/>
+<district id="4" name="San Antonio"/>
+<district id="5" name="Guácima"/>
+<district id="6" name="San Isidro"/>
+<district id="7" name="Sabanilla"/>
+<district id="8" name="San Rafael"/>
+<district id="9" name="Río Segundo"/>
+<district id="10" name="Desamparados"/>
+<district id="11" name="Turrúcares"/>
+<district id="12" name="Tambor"/>
+<district id="13" name="Garita"/>
+<district id="14" name="Sarapiquí"/>
+</canton> 
+
+<canton id="2" name="San Ramón">
+
+<district id="1" name="San Ramón"/>
+<district id="2" name="Santiago"/>
+<district id="3" name="San Juan"/>
+<district id="4" name="Piedades Norte"/>
+<district id="5" name="Piedades Sur"/>
+<district id="6" name="San Rafael"/>
+<district id="7" name="San Isidro"/>
+<district id="8" name="Ángeles"/>
+<district id="9" name="Alfaro"/>
+<district id="10" name="Volio"/>
+<district id="11" name="Concepción"/>
+<district id="12" name="Zapotal"/>
+<district id="13" name="Peñas Blancas"/>
+<district id="14" name="San Lorenzo"/>
+</canton> 
+
+<canton id="3" name="Grecia">
+
+<district id="1" name="Grecia"/>
+<district id="2" name="San Isidro"/>
+<district id="3" name="San José"/>
+<district id="4" name="San Roque"/>
+<district id="5" name="Tacares"/>
+<district id="6" name="Puente de Piedra"/>
+<district id="7" name="Bolívar"/>
+</canton> 
+
+<canton id="4" name="San Mateo">
+
+<district id="1" name="San Mateo"/>
+<district id="2" name="Desmonte"/>
+<district id="3" name="Jesús María"/>
+<district id="4" name="Labrador"/>
+</canton> 
+
+<canton id="5" name="Atenas">
+
+<district id="1" name="Atenas"/>
+<district id="2" name="Jesús"/>
+<district id="3" name="Mercedes"/>
+<district id="4" name="San Isidro"/>
+<district id="5" name="Concepción"/>
+<district id="6" name="San José"/>
+<district id="7" name="Santa Eulalia"/>
+<district id="8" name="Escobal"/>
+</canton> 
+
+<canton id="6" name="Naranjo">
+
+<district id="1" name="Naranjo"/>
+<district id="2" name="San Miguel"/>
+<district id="3" name="San José"/>
+<district id="4" name="Cirrí"/>
+<district id="5" name="San Jerónimo"/>
+<district id="6" name="San Juan"/>
+<district id="7" name="El Rosario"/>
+<district id="8" name="Palmitos"/>
+</canton> 
+
+<canton id="7" name="Palmares">
+
+<district id="1" name="Palmares"/>
+<district id="2" name="Zaragoza"/>
+<district id="3" name="Buenos Aires"/>
+<district id="4" name="Santiago"/>
+<district id="5" name="Candelaria"/>
+<district id="6" name="Esquipulas"/>
+<district id="7" name="La Granja"/>
+</canton> 
+
+<canton id="8" name="Poás">
+
+<district id="1" name="San Pedro"/>
+<district id="2" name="San Juan"/>
+<district id="3" name="San Rafael"/>
+<district id="4" name="Carrillos"/>
+<district id="5" name="Sabana Redonda"/>
+</canton> 
+
+<canton id="9" name="Orotina">
+
+<district id="1" name="Orotina"/>
+<district id="2" name="Mastate"/>
+<district id="3" name="Hacienda Vieja"/>
+<district id="4" name="Coyolar"/>
+<district id="5" name="La Ceiba"/>
+</canton> 
+
+<canton id="10" name="San Carlos">
+
+<district id="1" name="Quesada"/>
+<district id="2" name="Florencia"/>
+<district id="3" name="Buenavista"/>
+<district id="4" name="Aguas Zarcas"/>
+<district id="5" name="Venecia"/>
+<district id="6" name="Pital"/>
+<district id="7" name="La Fortuna"/>
+<district id="8" name="La Tigra"/>
+<district id="9" name="La Palmera"/>
+<district id="10" name="Venado"/>
+<district id="11" name="Cutris"/>
+<district id="12" name="Monterrey"/>
+<district id="13" name="Pocosol"/>
+</canton> 
+
+<canton id="11" name="Zarcero">
+
+<district id="1" name="Zarcero"/>
+<district id="2" name="Laguna"/>
+<district id="3" name="Tapezco"/>
+<district id="4" name="Guadalupe"/>
+<district id="5" name="Palmira"/>
+<district id="6" name="Zapote"/>
+<district id="7" name="Brisas"/>
+</canton> 
+
+<canton id="12" name="Valverde Vega">
+
+<district id="1" name="Sarchí Norte"/>
+<district id="2" name="Sarchí Sur"/>
+<district id="3" name="Toro Amarillo"/>
+<district id="4" name="San Pedro"/>
+<district id="5" name="Rodríguez"/>
+</canton> 
+
+<canton id="13" name="Upala">
+
+<district id="1" name="Upala"/>
+<district id="2" name="Aguas Claras"/>
+<district id="3" name="San José"/>
+<district id="4" name="Bijagua"/>
+<district id="5" name="Delicias"/>
+<district id="6" name="Dos Ríos"/>
+<district id="7" name="Yolillal"/>
+<district id="8" name="Canalete"/>>
+</canton> 
+
+<canton id="14" name="Los Chiles">
+
+<district id="1" name="Los Chiles"/>
+<district id="2" name="Caño Negro"/>
+<district id="3" name="El Amparo"/>
+<district id="4" name="San Jorge"/>
+</canton> 
+
+<canton id="15" name="Guatuso">
+
+<district id="1" name="San Rafael"/>
+<district id="2" name="Buenavista"/>
+<district id="3" name="Cote"/>
+<district id="4" name="Katira"/>
+<district id="5" name="Río Cuarto"/>
+</canton> 
+
+</province> 
+
+<!-- 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 -->
+
+<province id="3" name="Cartago">
+
+<canton id="1" name="Cartago">
+
+<district id="1" name="Oriental"/>
+<district id="2" name="Occidental"/>
+<district id="3" name="Carmen"/>
+<district id="4" name="San Nicolás"/>
+<district id="5" name="Agua Caliente"/>
+<district id="6" name="Guadalupe"/>
+<district id="7" name="Corralillo"/>
+<district id="8" name="Tierra Blanca"/>
+<district id="9" name="Dulce Nombre"/>
+<district id="10" name="Llano Grande"/>
+<district id="11" name="Quebradilla"/>
+</canton> 
+
+<canton id="2" name="Paraíso">
+
+<district id="1" name="Paraíso"/>
+<district id="2" name="Santiago de Paraíso"/>
+<district id="3" name="Orosi"/>
+<district id="4" name="Cachí"/>
+<district id="5" name="Llanos de Santa Lucía"/>
+</canton> 
+
+<canton id="3" name="La Unión">
+
+<district id="1" name="Tres Ríos"/>
+<district id="2" name="San Diego"/>
+<district id="3" name="San Juan"/>
+<district id="4" name="San Rafael"/>
+<district id="5" name="Concepción"/>
+<district id="6" name="Dulce Nombre"/>
+<district id="7" name="San Ramón"/>
+<district id="8" name="Río Azul"/>
+</canton> 
+
+<canton id="4" name="Jiménez">
+
+<district id="1" name="Juan Viñas"/>
+<district id="2" name="Tucurrique"/>
+<district id="3" name="Pejibaye"/>
+</canton> 
+
+<canton id="5" name="Turrialba">
+
+<district id="1" name="Turrialba"/>
+<district id="2" name="La Suiza"/>
+<district id="3" name="Peralta"/>
+<district id="4" name="Santa Cruz"/>
+<district id="5" name="Santa Teresita"/>
+<district id="6" name="Pavones"/>
+<district id="7" name="Tuis"/>
+<district id="8" name="Tayutic"/>
+<district id="9" name="Santa Rosa"/>
+<district id="10" name="Tres Equis"/>
+<district id="11" name="La Isabel"/>
+<district id="12" name="Chirripó"/>
+</canton> 
+
+<canton id="6" name="Alvarado">
+
+<district id="1" name="Pacayas"/>
+<district id="2" name="Cervantes"/>
+<district id="3" name="Capellades"/>
+</canton> 
+
+<canton id="7" name="Oreamuno">
+
+<district id="1" name="San Rafael"/>
+<district id="2" name="Cot"/>
+<district id="3" name="Potrero Cerrado"/>
+<district id="4" name="Cipreses"/>
+<district id="5" name="Santa Rosa"/>
+</canton> 
+
+<canton id="8" name="El Guarco">
+
+<district id="1" name="Tejar"/>
+<district id="2" name="San Isidro"/>
+<district id="3" name="Tobosi"/>
+<district id="4" name="Patio de Agua"/>
+</canton> 
+
+</province>
+
+<!-- 444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 -->
+
+<province id="4" name="Heredia">
+
+<canton id="1" name="Heredia">
+
+<district id="1" name="Heredia"/>
+<district id="2" name="Mercedes"/>
+<district id="3" name="San Francisco"/>
+<district id="4" name="Ulloa"/>
+<district id="5" name="Vara Blanca"/>
+</canton> 
+
+<canton id="2" name="Barva">
+
+<district id="1" name="Barva"/>
+<district id="2" name="San Pedro"/>
+<district id="3" name="San Pablo"/>
+<district id="4" name="San Roque"/>
+<district id="5" name="Santa Lucía"/>
+<district id="6" name="San José de la Montaña"/>
+</canton> 
+
+<canton id="3" name="Santo Domingo">
+
+<district id="1" name="Santo Domingo"/>
+<district id="2" name="San Vicente"/>
+<district id="3" name="San Miguel"/>
+<district id="4" name="Paracito"/>
+<district id="5" name="Santo Tomás"/>
+<district id="6" name="Santa Rosa"/>
+<district id="7" name="Tures"/>
+<district id="8" name="Pará"/>
+</canton> 
+
+<canton id="4" name="Santa Bárbara">
+
+<district id="1" name="Santa Bárbara"/>
+<district id="2" name="San Pedro"/>
+<district id="3" name="San Juan"/>
+<district id="4" name="Jesús"/>
+<district id="5" name="Santo Domingo"/>
+<district id="6" name="Purabá"/>
+</canton> 
+
+<canton id="5" name="San Rafael">
+
+<district id="1" name="San Rafael"/>
+<district id="2" name="San Josecito"/>
+<district id="3" name="Santiago"/>
+<district id="4" name="Ángeles"/>
+<district id="5" name="Concepción"/>
+<district id="6" name="San Isidro"/>
+<district id="7" name="San José"/>
+<district id="8" name="Concepción"/>
+<district id="9" name="San Francisco"/>
+</canton> 
+
+<canton id="6" name="Belén">
+
+<district id="1" name="San Antonio"/>
+<district id="2" name="La Ribera"/>
+<district id="3" name="La Asunción"/>
+</canton> 
+
+<canton id="7" name="Flores">
+
+<district id="1" name="San Joaquín"/>
+<district id="2" name="Barrantes"/>
+<district id="3" name="Llorente"/>
+</canton> 
+
+<canton id="8" name="San Pablo">
+
+<district id="1" name="San Pablo"/>
+<district id="2" name="Rincón de Sabanilla"/>
+<district id="3" name="Puerto Viejo"/>
+<district id="4" name="La Virgen"/>
+<district id="5" name="Horquetas"/>
+<district id="6" name="Llanuras del Gaspar"/>
+<district id="7" name="Cureña"/>
+</canton> 
+
+</province>
+
+<!-- 555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555 -->
+
+<province id="5" name="Guanacaste">
+
+<canton id="1" name="Liberia">
+
+<district id="1" name="Liberia"/>
+<district id="2" name="Cañas Dulces"/>
+<district id="3" name="Mayorga"/>
+<district id="4" name="Nacascolo"/>
+<district id="5" name="Curubandé"/>
+</canton> 
+
+<canton id="2" name="Nicoya">
+
+<district id="1" name="Nicoya"/>
+<district id="2" name="Mansión"/>
+<district id="3" name="San Antonio"/>
+<district id="4" name="Quebrada Honda"/>
+<district id="5" name="Sámara"/>
+<district id="6" name="Nosara"/>
+<district id="7" name="Belén de Nosarita"/>
+</canton> 
+
+<canton id="3" name="Santa Cruz">
+
+<district id="1" name="Santa Cruz"/>
+<district id="2" name="Bolsón"/>
+<district id="3" name="Veintisiete de Abril"/>
+<district id="4" name="Tempate"/>
+<district id="5" name="Cartagena"/>
+<district id="6" name="Cuajiniquil"/>
+<district id="7" name="Diriá"/>
+<district id="8" name="Cabo Velas"/>
+<district id="9" name="Tamarindo"/>
+</canton> 
+
+<canton id="4" name="Bagaces">
+
+<district id="1" name="Bagaces"/>
+<district id="2" name="La Fortuna"/>
+<district id="3" name="Mogote"/>
+<district id="4" name="Río Naranjo"/>
+</canton> 
+
+<canton id="5" name="Carrillo">
+
+<district id="1" name="Filadelfia"/>
+<district id="2" name="Palmira"/>
+<district id="3" name="Sardinal"/>
+<district id="4" name="Belén"/>
+</canton> 
+
+<canton id="6" name="Cañas">
+
+<district id="1" name="Cañas"/>
+<district id="2" name="Palmira"/>
+<district id="3" name="San Miguel"/>
+<district id="4" name="Bebedero"/>
+<district id="5" name="Porozal"/>
+</canton> 
+
+<canton id="7" name="Abangares">
+
+<district id="1" name="Las Juntas"/>
+<district id="2" name="Sierra"/>
+<district id="3" name="San Juan"/>
+<district id="4" name="Colorado"/>
+</canton> 
+
+<canton id="8" name="Tilarán">
+
+<district id="1" name="Tilarán"/>
+<district id="2" name="Quebrada Grande"/>
+<district id="3" name="Tronadora"/>
+<district id="4" name="Santa Rosa"/>
+<district id="5" name="Líbano"/>
+<district id="6" name="Tierras Morenas"/>
+<district id="7" name="Arenal"/>
+</canton> 
+
+<canton id="9" name="Nandayure">
+
+<district id="1" name="Carmona"/>
+<district id="2" name="Santa Rita"/>
+<district id="3" name="Zapotal"/>
+<district id="4" name="San Pablo"/>
+<district id="5" name="Porvenir"/>
+<district id="6" name="Bejuco"/>
+</canton> 
+
+<canton id="10" name="La Cruz">
+
+<district id="1" name="La Cruz"/>
+<district id="2" name="Santa Cecilia"/>
+<district id="3" name="La Garita"/>
+<district id="4" name="La Garita"/>
+</canton> 
+
+<canton id="11" name="Hojancha">
+
+<district id="1" name="Hojancha"/>
+<district id="2" name="Monte Romo"/>
+<district id="3" name="Puerto Carrillo"/>
+<district id="4" name="Huacas"/>
+<district id="5" name="Matambú"/>
+</canton> 
+
+</province> 
+
+<!-- 666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 -->
+
+<province id="6" name="Puntarenas">
+
+<canton id="1" name="Puntarenas">
+
+<district id="1" name="Puntarenas"/>
+<district id="2" name="Pitahaya"/>
+<district id="3" name="Chomes"/>
+<district id="4" name="Lepanto"/>
+<district id="5" name="Paquera"/>
+<district id="6" name="Manzanillo"/>
+<district id="7" name="Guacimal"/>
+<district id="8" name="Barranca"/>
+<district id="9" name="Monteverde"/>
+<district id="10" name="Isla del Coco"/>
+<district id="11" name="Cóbano"/>
+<district id="12" name="Chacarita"/>
+<district id="13" name="Chira"/>
+<district id="14" name="Acapulco"/>
+<district id="15" name="El Roble"/>
+<district id="16" name="Arancibia"/>
+</canton> 
+
+<canton id="2" name="Esparza">
+
+<district id="1" name="Espíritu Santo"/>
+<district id="2" name="San Juan Grande"/>
+<district id="3" name="Macacona"/>
+<district id="4" name="San Rafael"/>
+<district id="5" name="San Jerónimo"/>
+<district id="6" name="Caldera"/>
+</canton> 
+
+<canton id="3" name="Buenos Aires">
+
+<district id="1" name="Buenos Aires"/>
+<district id="2" name="Volcán"/>
+<district id="3" name="Potrero"/>
+<district id="4" name="Boruca"/>
+<district id="5" name="Pilas"/>
+<district id="6" name="Colinas"/>
+<district id="7" name="Chánguena"/>
+<district id="8" name="Biolley"/>
+<district id="9" name="Brunka"/>
+</canton> 
+
+<canton id="4" name="Montes de Oro">
+
+<district id="1" name="Miramar"/>
+<district id="2" name="La Unión"/>
+<district id="3" name="San Isidro"/>
+</canton> 
+
+<canton id="5" name="Osa">
+
+<district id="1" name="Cortés"/>
+<district id="2" name="Palmar"/>
+<district id="3" name="Sierpe"/>
+<district id="4" name="Bahía Ballena"/>
+<district id="5" name="Piedras Blancas"/>
+<district id="6" name="Bahía Drake"/>
+</canton> 
+
+<canton id="6" name="Quepos">
+
+<district id="1" name="Quepos"/>
+<district id="2" name="Savegre"/>
+<district id="3" name="Naranjito"/>
+</canton> 
+
+<canton id="7" name="Golfito">
+
+<district id="1" name="Golfito"/>
+<district id="2" name="Puerto Jiménez"/>
+<district id="3" name="Guaycará"/>
+<district id="4" name="Pavón"/>
+</canton> 
+
+<canton id="8" name="Coto Brus">
+
+<district id="1" name="San Vito"/>
+<district id="2" name="Sabalito"/>
+<district id="3" name="Aguabuena"/>
+<district id="4" name="Limoncito"/>
+<district id="5" name="Pittier"/>
+<district id="6" name="Gutiérrez Brown"/>
+</canton> 
+
+<canton id="9" name="Parrita">
+
+<district id="1" name="Parrita"/>
+</canton> 
+
+<canton id="10" name="Corredores">
+
+<district id="1" name="Corredor"/>
+<district id="2" name="La Cuesta"/>
+<district id="3" name="Paso Canoas"/>
+<district id="4" name="Laurel"/>
+</canton> 
+
+<canton id="11" name="Garabito">
+
+<district id="1" name="Jacó"/>
+<district id="2" name="Tárcoles"/>
+</canton> 
+
+</province>
+
+
+
+
+
+
+
+<!-- 777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777 -->
+
+
+
+<province id="7" name="Limón">
+
+<canton id="1" name="Limón">
+
+<district id="1" name="Limón"/>
+<district id="2" name="Valle La Estrella"/>
+<district id="3" name="Río Blanco"/>
+<district id="4" name="Matama"/>
+</canton> 
+
+<canton id="2" name="Pococí">
+
+<district id="1" name="Guápiles"/>
+<district id="2" name="Jiménez"/>
+<district id="3" name="La Rita"/>
+<district id="4" name="Roxana"/>
+<district id="5" name="Cariari"/>
+<district id="6" name="Colorado"/>
+<district id="7" name="La Colonia"/>
+</canton> 
+
+<canton id="3" name="Siquirres">
+
+<district id="1" name="Siquirres"/>
+<district id="2" name="Pacuarito"/>
+<district id="3" name="Florida"/>
+<district id="4" name="Germania"/>
+<district id="5" name="Cairo"/>
+<district id="6" name="Alegría"/>
+</canton> 
+
+<canton id="4" name="Talamanca">
+
+<district id="1" name="Bratsi"/>
+<district id="2" name="Sixaola"/>
+<district id="3" name="Cahuita"/>
+<district id="4" name="Telire"/>
+</canton> 
+
+<canton id="5" name="Matina">
+
+<district id="1" name="Matina"/>
+<district id="2" name="Batán"/>
+<district id="3" name="Carrandi"/>
+</canton> 
+
+<canton id="6" name="Guácimo">
+
+<district id="1" name="Guácimo"/>
+<district id="2" name="Mercedes"/>
+<district id="3" name="Pocora"/>
+<district id="4" name="Río Jiménez"/>
+<district id="5" name="Duacarí"/>
+</canton> 
+
+</province>
+
+</address-config>

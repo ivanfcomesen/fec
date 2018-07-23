@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+
+<struts-config>
+    <form-beans>
+    	<form-bean name="loginForm" type="net.ifz.app.web.fec.controller.login.form.LoginForm"/>
+    
+    </form-beans>
+    
+    
+    <global-exceptions>
+    
+    </global-exceptions>
+
+    <global-forwards>
+        <forward name="welcome"  path="/index.jsp"/>
+        <forward name="logout"  path="/logout.do"/>
+    </global-forwards>
+
+    <action-mappings>
+    
+        <action  path="/showLogin" name="loginForm"  scope="request" type="net.ifz.app.web.fec.controller.login.action.ShowLoginAction">
+            <forward name="success" path="/login.jsp"/>    
+        </action>
+        
+        <action  path="/login" name="loginForm" type="net.ifz.app.web.fec.controller.login.action.LoginAction">
+        	<forward name="failure" path="/showLogin.do" />      
+            <forward name="success" path="/showBilling.do" redirect="true"/>       
+        </action>
+        <action  path="/logout" name="loginForm" type="net.ifz.app.web.fec.controller.login.action.LogoutAction"/>
+        
+        <action  path="/showBilling" type="net.ifz.app.web.fec.controller.billing.action.ShowBillingAction">
+            <forward name="success" path="/billList.jsp"/>       
+        </action>
+        
+        <action  path="/getAvatar" type="net.ifz.app.web.fec.controller.common.action.GetAvatarAction"/>
+        <action  path="/getLogo" type="net.ifz.app.web.fec.controller.common.action.GetLogoAction"/>
+        
+        <action  path="/Manage" type="net.ifz.app.web.fec.controller.manage.action.ShowManageAction">
+            <forward name="success" path="/manage.jsp"/>       
+        </action>
+        
+         <action  path="/bill" type="net.ifz.app.web.fec.controller.bill.action.ShowBillAction">
+            <forward name="success" path="/bill.jsp"/>       
+        </action> 
+        
+         <action  path="/Handle" type="net.ifz.app.web.fec.controller.handle.action.ShowHandleAction">
+            <forward name="success" path="/handle.jsp"/>       
+        </action>
+        
+        
+    </action-mappings>
+    
+    <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>
+
+    <message-resources parameter="net.ifz.app.web.fec.controller.resources.FecResources"/>    
+    
+    <!-- ========================= Tiles plugin ===============================-->
+    <!--
+    This plugin initialize Tiles definition factory. This later can takes some
+    parameters explained here after. The plugin first read parameters from
+    web.xml, thenoverload them with parameters defined here. All parameters
+    are optional.
+    The plugin should be declared in each struts-config file.
+    - definitions-config: (optional)
+    Specify configuration file names. There can be several comma
+    separated file names (default: ?? )
+    - moduleAware: (optional - struts1.1)
+    Specify if the Tiles definition factory is module aware. If true
+    (default), there will be one factory for each Struts module.
+    If false, there will be one common factory for all module. In this
+    later case, it is still needed to declare one plugin per module.
+    The factory will be initialized with parameters found in the first
+    initialized plugin (generally the one associated with the default
+    module).
+    true : One factory per module. (default)
+    false : one single shared factory for all modules
+    - definitions-parser-validate: (optional)
+    Specify if xml parser should validate the Tiles configuration file.
+    true : validate. DTD should be specified in file header (default)
+    false : no validation
+
+    Paths found in Tiles definitions are relative to the main context.
+    -->
+    <plug-in className="org.apache.struts.tiles.TilesPlugin" >
+        <set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />      
+        <set-property property="moduleAware" value="true" />
+    </plug-in>
+    <plug-in className="net.ifz.app.web.fec.common.plugin.FecPlugin">
+    </plug-in>
+   
+  
+</struts-config>
