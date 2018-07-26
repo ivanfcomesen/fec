@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <datasources>
-	<datasource id="default" dataBaseUrl="jdbc:mysql://localhost:3306/fec" user="root" pass="" driver="com.mysql.jdbc.Driver"/>
+	<datasource id="default" dataBaseUrl="jdbc:mysql://localhost:3306/test" user="root" pass="Ivans.1989" driver="com.mysql.jdbc.Driver"/>
 	
 </datasources>

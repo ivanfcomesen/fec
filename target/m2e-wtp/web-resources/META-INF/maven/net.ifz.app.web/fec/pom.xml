@@ -14,6 +14,7 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
     <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
@@ -39,12 +40,7 @@
  				<version>2.3.0-jaxb-1.0.6</version><!-- librerías de dom del repositorio de Maven. -->
 			</dependency>
 			
-			
-		
-            
-            
-        
- 
+
         <dependency>
 		    <groupId>struts</groupId>
 		    <artifactId>struts</artifactId>

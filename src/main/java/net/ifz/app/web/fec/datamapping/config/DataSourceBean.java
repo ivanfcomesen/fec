@@ -2,7 +2,7 @@ package net.ifz.app.web.fec.datamapping.config;
 
 public class DataSourceBean {
 
-	private static final String DEFAULT_PASS = "";
+	private static final String DEFAULT_PASS = "Ivans.1989";
 	
 	private String dataBaseUrl, driver, user, pass;
 
