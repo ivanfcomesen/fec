@@ -36,7 +36,8 @@
 
     end samples -->
 
-    <definition name="${YOUR_DEFINITION_HERE}">
+    <definition name="welcome" path="/mainLayout.jsp">
+    	<put name="loginForm"  value="/loginForm.jsp" />
     </definition>
 
 </tiles-definitions>

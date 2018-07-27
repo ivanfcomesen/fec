@@ -27,8 +27,7 @@
 		
 	</head>
 	<body class="body">
-	
-	
+		
 		<form action="/fec/login.do" id="loginForm" method="post">
 			<div class="container">
 							<div class="row">
