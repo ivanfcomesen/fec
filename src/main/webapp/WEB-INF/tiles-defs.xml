@@ -5,39 +5,21 @@
        "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
 
 
-<!--
-     This is a blank Tiles definition file with a commented example.
--->
+<!-- This is a blank Tiles definition file with a commented example. -->
 
 <tiles-definitions>
 
-    <!-- sample tiles definitions
-    <definition name=".mainLayout" path="/common/layouts/classicLayout.jsp">
-        <put name="title"  value="Sample Page Title" />
-        <put name="header" value="/common/header.jsp" />
-        <put name="menu"   value=".mainMenu" />
-        <put name="footer" value="/common/footer.jsp" />
-        <put name="body"   value=".portal.body" />
-    </definition>
+	<definition name="common.login.layout" path="/baseLogin.jsp">
+		<put name="header" value="/header.jsp" />
+	<!--	<put name="loginForm" value="" /> -->
+	</definition>
+	
+	<definition name="common.login.user" extends="common.login.layout">
+		<put name="loginForm" value="/loginUser.jsp" />
+	</definition>
 
-    <definition name=".mainMenu" path="/common/layouts/vboxLayout.jsp" >
-        <putList name="list" >
-            <add value=".menu.links" />
-            <add value=".menu.taglib.references" />
-            <add value=".menu.printer.friendly" />
-            <add value=".menu.old.documents" />
-      </putList>
-    </definition>
-
-    <definition name="aPage" extends=".mainLayout">
-        <put name="title"  value="Another Title" />
-        <put name="body"   value=".aPage.body" />
-    </definition>
-
-    end samples -->
-
-    <definition name="welcome" path="/mainLayout.jsp">
-    	<put name="loginForm"  value="/loginForm.jsp" />
-    </definition>
+	<definition name="common.login.pss" extends="common.login.layout">
+		<put name="loginForm" value="/loginPss.jsp" />
+	</definition>
 
 </tiles-definitions>

@@ -8,23 +8,19 @@
 <struts-config>
     <form-beans>
     	<form-bean name="loginForm" type="net.ifz.app.web.fec.controller.login.form.LoginForm"/>
-    
     </form-beans>
     
-    
-    <global-exceptions>
-    
-    </global-exceptions>
+    <global-exceptions> </global-exceptions>
 
     <global-forwards>
-        <forward name="welcome"  path="/index.jsp"/>
+        <forward name="welcome"  path="common.login.user"/>
         <forward name="logout"  path="/logout.do"/>
     </global-forwards>
 
     <action-mappings>
     
         <action  path="/showLogin" name="loginForm"  scope="request" type="net.ifz.app.web.fec.controller.login.action.ShowLoginAction">
-            <forward name="success" path="/login.jsp"/>    
+            <forward name="success" path="/common.login.pss"/>    
         </action>
         
         <action  path="/login" name="loginForm" type="net.ifz.app.web.fec.controller.login.action.LoginAction">
