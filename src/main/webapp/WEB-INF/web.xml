@@ -18,12 +18,7 @@
             <param-value>2</param-value>
         </init-param>
         <load-on-startup>2</load-on-startup>
-    </servlet>
-    
-    
-   
-    
-    
+    </servlet>              
     <jsp-config>
 		<taglib>
 			<taglib-uri>jstl-fmt.tld</taglib-uri>
@@ -37,10 +32,7 @@
     <servlet-mapping>
         <servlet-name>action</servlet-name>
         <url-pattern>*.do</url-pattern>
-    </servlet-mapping>
-    
-      
-    
+    </servlet-mapping>        
     <session-config>
         <session-timeout>
             30
@@ -48,6 +40,5 @@
     </session-config>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
-    </welcome-file-list>
-  	
+    </welcome-file-list>  	
 </web-app>
